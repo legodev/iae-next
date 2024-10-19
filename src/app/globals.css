@@ -10,16 +10,28 @@
   }
 }
 
+@media (max-width: 768px) {
+  .imagenes{
+    display: none;
+  }
+}
+
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
 }
+@font-face {
+  font-family: 'GlassAntiqua-Regular';
+  src: url('./fonts/GlassAntiqua-Regular.ttf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: GlassAntiqua-Regular, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
