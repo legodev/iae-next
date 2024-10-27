@@ -3,7 +3,6 @@
 import Link from 'next/link'
 import './navbar.css'
 import Image from 'next/image'
-import Iae from '../image/iae.png'
 import { useState } from 'react'
 
 const links = [
@@ -46,7 +45,7 @@ export default function Navbar() {
           <nav className="nav container" role="navigation">
             <div className='nav__logo'>
               <Link href="./" className="nav__logo link" role="button-logo">
-                <Image src={Iae} alt="icon" priority width={45} />
+                <Image src='/image/iae.png' alt="icon" priority height={45} width={45} />
               </Link>
               <h3 className='nav__logo-text'>IAE</h3>
             </div>
