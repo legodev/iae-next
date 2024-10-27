@@ -1,5 +1,5 @@
 import Link from "next/link";
-import "./Button.css"
+import "./button.css"
 
 export default function ButtonPage ({children, href}) {
     return (

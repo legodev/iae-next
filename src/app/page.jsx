@@ -2,18 +2,18 @@
 
 import Link from 'next/link'
 import './home.css'
-import Image from 'next/image'
 import ButtonPage from './components/Button'
 import Grid from './components/Grid'
 import Article from './components/Article'
 import {Texts} from './components/Texts.js'
 import Gridv2 from './components/Gridv2'
+import Footer from './components/Footer'
 
 export default function Home() {
 
   return (
-    <main className="top">
-      <div className={'home'}>
+    <div className="top">
+      <header className={'home'}>
         <section className="home__section-main column">
           <article className="home__article-main">
             <h1 className="home__title">Title</h1>
@@ -29,9 +29,9 @@ export default function Home() {
             controls
           ></video>
         </section>
-      </div>
+      </header>
       <section className="home__parallax"></section>
-      <div className="home">
+      <main className="home">
         <article className="space" id="areas"></article>
         <h3 className="home__columns-title">Iae areas</h3>
         <section className="home__section-columns column">
@@ -39,14 +39,43 @@ export default function Home() {
           <Article title="Bilingual" text={Texts.home.bilingual} />
           <Article title="Full-time" text={Texts.home.fulltime} />
         </section>
-      </div>
+      </main>
       <div></div>
       <section className="home__parallax hp2"></section>
-      <div className="home">
+      <div className="home column">
         <Grid />
         <Gridv2 />
-        <ButtonPage href={'./about'}>Next</ButtonPage>
+        <ButtonPage href='./about'>Next</ButtonPage>
       </div>
-    </main>
+      <Footer />
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+      <div>asdas</div>
+    </div>
   )
 }
