@@ -1,21 +1,24 @@
+'use client'
+
 import Link from 'next/link'
 import './home.css'
 import Image from 'next/image'
+import ButtonPage from './components/Button'
+import Grid from './components/Grid'
+import Article from './components/Article'
+import {Texts} from './components/Texts.js'
+import Gridv2 from './components/Gridv2'
 
 export default function Home() {
+
   return (
     <main className="top">
       <div className={'home'}>
         <section className="home__section-main column">
           <article className="home__article-main">
             <h1 className="home__title">Title</h1>
-            <p className="home__description">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
-              impedit quidem sed, delectus laudantium cupiditate ipsa provident,
-              rerum illo expedita eos repudiandae nemo eum distinctio pariatur
-              natus omnis tempora. Tempore! Provident quae esse repellendus
-            </p>
-            <Link href="#peru" className="home__button">
+            <p className="home__description">{Texts.home.description}</p>
+            <Link href="#areas" className="home__button">
               See more
             </Link>
           </article>
@@ -29,96 +32,20 @@ export default function Home() {
       </div>
       <section className="home__parallax"></section>
       <div className="home">
-          <h3 className='home__columns-title'>Iae areas</h3>
+        <article className="space" id="areas"></article>
+        <h3 className="home__columns-title">Iae areas</h3>
         <section className="home__section-columns column">
-          <article className="home__article column">
-            <h4 className='home__article-subtitle'>Technological</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-              facere iusto molestias rem ut mollitia tenetur saepe ipsa, nam
-              sunt!
-            </p>
-          </article>
-          <article className="home__article column">
-            <h4 className='home__article-subtitle'>Bilingual</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-              facere iusto molestias rem ut mollitia tenetur saepe ipsa, nam
-              sunt!
-            </p>
-          </article>
-          <article className="home__article column">
-            <h4 className='home__article-subtitle'>Full-time</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-              facere iusto molestias rem ut mollitia tenetur saepe ipsa, nam
-              sunt!
-            </p>
-          </article>
+          <Article title="Technological" text={Texts.home.technological} />
+          <Article title="Bilingual" text={Texts.home.bilingual} />
+          <Article title="Full-time" text={Texts.home.fulltime} />
         </section>
       </div>
-      <section className="home__parallax"></section>
-      <div className='home'>
-        <section className='home__grid'>
-          <Image className='grid-1 image' src="/image/hi.jpeg" alt='image' height={100} width={100}/>
-          <Image className='grid-2 image' src="/image/hi.jpeg" alt='image' height={100} width={100}/>
-          <Image className='grid-3 image' src="/image/hi.jpeg" alt='image' height={100} width={100}/>
-          <Image className='grid-4 image' src="/image/hi.jpeg" alt='image' height={100} width={100}/>
-          <Image className='grid-5 image' src="/image/hi.jpeg" alt='image' height={100} width={100}/>
-        </section>
-        <section className='home__grid-2'>
-          <Image className='left image' src="/image/hi.jpeg" alt='image' height={100} width={100}/>
-          <Image className='center image' src="/image/hi.jpeg" alt='image' height={100} width={100}/>
-          <Image className='right image' src="/image/hi.jpeg" alt='image' height={100} width={100}/>
-        </section>
-        <article className="home__article column">
-            <h4 className='home__article-subtitle'>Full-time</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-              facere iusto molestias rem ut mollitia tenetur saepe ipsa, nam
-              sunt!
-            </p>
-          </article>
-          <article className="home__article column">
-            <h4 className='home__article-subtitle'>Full-time</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-              facere iusto molestias rem ut mollitia tenetur saepe ipsa, nam
-              sunt!
-            </p>
-          </article>
-          <article className="home__article column">
-            <h4 className='home__article-subtitle'>Full-time</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-              facere iusto molestias rem ut mollitia tenetur saepe ipsa, nam
-              sunt!
-            </p>
-          </article>
-          <article className="home__article column">
-            <h4 className='home__article-subtitle'>Full-time</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-              facere iusto molestias rem ut mollitia tenetur saepe ipsa, nam
-              sunt!
-            </p>
-          </article>
-          <article className="home__article column">
-            <h4 className='home__article-subtitle'>Full-time</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-              facere iusto molestias rem ut mollitia tenetur saepe ipsa, nam
-              sunt!
-            </p>
-          </article>
-          <article className="home__article column">
-            <h4 className='home__article-subtitle'>Full-time</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-              facere iusto molestias rem ut mollitia tenetur saepe ipsa, nam
-              sunt!
-            </p>
-          </article>
+      <div></div>
+      <section className="home__parallax hp2"></section>
+      <div className="home">
+        <Grid />
+        <Gridv2 />
+        <ButtonPage href={'./about'}>Next</ButtonPage>
       </div>
     </main>
   )
