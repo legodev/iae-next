@@ -68,7 +68,7 @@ export default function Home() {
         </section>
         <section className='home__grid-2'>
           <Image className='left image' src="/image/hi.jpeg" alt='image' height={100} width={100}/>
-          <Image className='main image' src="/image/hi.jpeg" alt='image' height={100} width={100}/>
+          <Image className='center image' src="/image/hi.jpeg" alt='image' height={100} width={100}/>
           <Image className='right image' src="/image/hi.jpeg" alt='image' height={100} width={100}/>
         </section>
         <article className="home__article column">
