@@ -11,6 +11,10 @@
     letter-spacing: 5px;
 }
 
+.footer__copy {
+    display: none;
+}
+
 .footer__list {
     display: flex;
     align-items: center;

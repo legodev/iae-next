@@ -1,16 +1,15 @@
 'use client'
 
-import Link from 'next/link'
 import './home.css'
-import ButtonPage from './components/Button'
+import Link from 'next/link'
+import { Texts } from './components/Texts.js'
+import HomeColumns from './components/HomeColumns'
 import Grid from './components/Grid'
-import Article from './components/Article'
-import {Texts} from './components/Texts.js'
 import Gridv2 from './components/Gridv2'
+import ButtonPage from './components/Button'
 import Footer from './components/Footer'
 
 export default function Home() {
-
   return (
     <div className="top">
       <header className={'home'}>
@@ -31,51 +30,15 @@ export default function Home() {
         </section>
       </header>
       <section className="home__parallax"></section>
-      <main className="home">
-        <article className="space" id="areas"></article>
-        <h3 className="home__columns-title">Iae areas</h3>
-        <section className="home__section-columns column">
-          <Article title="Technological" text={Texts.home.technological} />
-          <Article title="Bilingual" text={Texts.home.bilingual} />
-          <Article title="Full-time" text={Texts.home.fulltime} />
-        </section>
-      </main>
+      <HomeColumns />
       <div></div>
       <section className="home__parallax hp2"></section>
       <div className="home column">
         <Grid />
         <Gridv2 />
-        <ButtonPage href='./about'>Next</ButtonPage>
+        <ButtonPage href="./about">Next</ButtonPage>
       </div>
       <Footer />
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
-      <div>asdas</div>
     </div>
   )
 }

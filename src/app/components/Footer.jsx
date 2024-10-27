@@ -37,6 +37,7 @@ export default function Footer() {
       >
         IAE
       </Link>
+      <p className='footer__copy'>©Copyright MC 2024</p>
       <ul className="footer__list">
         {links.map((link) => {
           return (

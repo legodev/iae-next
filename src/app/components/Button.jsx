@@ -1,8 +1,9 @@
-import Link from "next/link";
-import "./button.css"
+import Link from 'next/link'
 
-export default function ButtonPage ({children, href}) {
-    return (
-        <Link className="button" href={href}>{children}</Link>
-    )
+export default function ButtonPage({ children, href }) {
+  return (
+    <Link className="button" href={href}>
+      {children}
+    </Link>
+  )
 }
