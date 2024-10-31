@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import './about.css'
 import AboutContainer from '../components/AboutContainer'
+import AboutGrid from '../components/AboutGrid'
+import ButtonPage from '../components/Button'
 
 export default function About() {
   return (
@@ -29,52 +31,11 @@ export default function About() {
       </section>
       <section className="home__parallax hp3"></section>
       <AboutContainer />
-      <section className="about">
-        <div className="about__grid">
-          <Image
-            className="about__grid-image g1 hidden"
-            src="/image/img-3.jpg"
-            alt="Image"
-            height={200}
-            width={200}
-          />
-          <Image
-            className="about__grid-image g2 hidden"
-            src="/image/img-3.jpg"
-            alt="Image"
-            height={200}
-            width={200}
-          />
-          <Image
-            className="about__grid-image g3 hidden"
-            src="/image/img-3.jpg"
-            alt="Image"
-            height={200}
-            width={200}
-          />
-          <Image
-            className="about__grid-image g4 hidden"
-            src="/image/img-3.jpg"
-            alt="Image"
-            height={200}
-            width={200}
-          />
-          <Image
-            className="about__grid-image g5 hidden"
-            src="/image/img-3.jpg"
-            alt="Image"
-            height={200}
-            width={200}
-          />
-          <Image
-            className="about__grid-image g6 hidden"
-            src="/image/img-3.jpg"
-            alt="Image"
-            height={200}
-            width={200}
-          />
-        </div>
-      </section>
+      <AboutGrid />
+      <div className='about__links'>
+        <ButtonPage href="./">Previous</ButtonPage>
+        <ButtonPage href="./interviews">Next</ButtonPage>
+      </div>
     </main>
   )
 }

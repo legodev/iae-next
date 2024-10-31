@@ -1,4 +1,5 @@
 .button {
+    display: inline-block;
     background-color: var(--secondary-color);
     padding: 10px 15px;
     border-radius: 5px;
