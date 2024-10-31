@@ -12,7 +12,7 @@ import Footer from './components/Footer'
 export default function Home() {
   return (
     <div className="top">
-      <header className={'home'}>
+      <header className="home">
         <section className="home__section-main column">
           <article className="home__article-main">
             <h1 className="home__title">Title</h1>
@@ -38,7 +38,6 @@ export default function Home() {
         <Gridv2 />
         <ButtonPage href="./about">Next</ButtonPage>
       </div>
-      <Footer />
     </div>
   )
 }
