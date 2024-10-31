@@ -28,7 +28,7 @@ export default function Footer() {
   ]
 
   return (
-    <footer className="footer home">
+    <footer className="footer">
       <Link
         className="footer__iae"
         href={'https://iaemontevideo.utu.edu.uy/'}
