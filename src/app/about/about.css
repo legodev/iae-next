@@ -26,7 +26,7 @@
 }
 
 .about__image {
-  width: 95%;
+  width: 100%;
   align-self: center;
   display: block;
 }
@@ -50,7 +50,7 @@
 }
 
 .about__columns-image {
-  width: 95%;
+  width: 100%;
   align-self: center;
 }
 
@@ -58,7 +58,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 25px;
-  padding: 25px;
   margin-top: 60px;
 }
 
