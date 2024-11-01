@@ -1,0 +1,65 @@
+.top {
+  margin-top: 20px;
+  padding-top: 50px;
+}
+
+.interview {
+  padding: 0 25px;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15dvh;
+  min-height: 80dvh;
+}
+
+.interview__title {
+    font-size: 5rem;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.interview__video {
+    width: 95%;
+    aspect-ratio: 16/9;
+    border-radius: 20px;
+}
+
+.interview__btn {
+    position: relative;
+}
+
+.interview__btn-div {
+    width: 50px;
+    height: 50px;
+    background-color: var(--secondary-color);
+    border-radius: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
+
+.interview__testimonials {
+    padding: 80px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.testimonials__title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.testimonials__container {
+    display: grid;
+    gap: 30px;
+}
+
+.testimonials__article {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
