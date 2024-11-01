@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import './interviews.css'
 import Testimonials from '../components/Testimonials'
+import ButtonPage from '../components/Button'
 
 export default function Inteviews() {
   return (
@@ -29,8 +30,8 @@ export default function Inteviews() {
           />
           <Testimonials
             img="/image/hi.jpeg"
-            order={"order"}
-            start={"start"}
+            order={'order'}
+            start={'start'}
             alt="Image"
             witness="Marcelo Santos"
             audio="/audio/a1.mp3"
@@ -45,8 +46,8 @@ export default function Inteviews() {
           />
           <Testimonials
             img="/image/hi.jpeg"
-            order={"order"}
-            start={"start"}
+            order={'order'}
+            start={'start'}
             alt="Image"
             witness="Marcelo Santos"
             audio="/audio/a1.mp3"
@@ -61,6 +62,10 @@ export default function Inteviews() {
           />
         </section>
       </section>
+      <div className="interview__links">
+        <ButtonPage href="./about">Previous</ButtonPage>
+        <ButtonPage href="./breaks">Next</ButtonPage>
+      </div>
     </main>
   )
 }
