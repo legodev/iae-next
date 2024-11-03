@@ -6,12 +6,14 @@ import ButtonPage from '../components/Button'
 export default function Inteviews() {
   return (
     <main className="top">
-      <section className="interview">
+      <section className="interview home">
         <h3 className="interview__title">Mock Interviews</h3>
         <video
+        // POSTER
           className="interview__video"
           src="/videos/video.mp4"
           autoPlay
+          muted
           controls
         />
       </section>

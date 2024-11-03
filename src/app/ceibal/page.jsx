@@ -1,7 +1,121 @@
+import './ceibal.css'
+import LinkCeibal from '../components/LinkCeibal'
+import ButtonPage from '../components/Button'
+
 export default function Ceibal() {
-    return (
-        <section className="top">
-            <h3>Plan Ceibal 💻</h3>
-        </section>
-    )
+  return (
+    <main className="top">
+      <section className="ceibal home">
+        <LinkCeibal
+          href={'https://www.google.com'}
+          cls={'d1'}
+          src={'/image/hola.jpg'}
+          alt={'Image'}
+        />
+        <LinkCeibal
+          href={'https://www.google.com'}
+          cls={'d2'}
+          src={'/image/hola.jpg'}
+          alt={'Image'}
+        />
+        <LinkCeibal
+          href={'https://www.google.com'}
+          cls={'d3'}
+          src={'/image/hola.jpg'}
+          alt={'Image'}
+        />
+        <LinkCeibal
+          href={'https://www.google.com'}
+          cls={'d4'}
+          src={'/image/hola.jpg'}
+          alt={'Image'}
+        />
+        <LinkCeibal
+          href={'https://www.google.com'}
+          cls={'d5'}
+          src={'/image/hola.jpg'}
+          alt={'Image'}
+        />
+        <LinkCeibal
+          href={'https://www.google.com'}
+          cls={'d6'}
+          src={'/image/hola.jpg'}
+          alt={'Image'}
+        />
+        <LinkCeibal
+          href={'https://www.google.com'}
+          cls={'d7'}
+          src={'/image/hola.jpg'}
+          alt={'Image'}
+        />
+        <LinkCeibal
+          href={'https://www.google.com'}
+          cls={'d8'}
+          src={'/image/hola.jpg'}
+          alt={'Image'}
+        />
+        <LinkCeibal
+          href={'https://www.google.com'}
+          cls={'d9'}
+          src={'/image/hola.jpg'}
+          alt={'Image'}
+        />
+        <LinkCeibal
+          href={'https://www.google.com'}
+          cls={'d10'}
+          src={'/image/hola.jpg'}
+          alt={'Image'}
+        />
+        <LinkCeibal
+          href={'https://www.google.com'}
+          cls={'d11'}
+          src={'/image/hola.jpg'}
+          alt={'Image'}
+        />
+        <LinkCeibal
+          href={'https://www.google.com'}
+          cls={'d12'}
+          src={'/image/hola.jpg'}
+          alt={'Image'}
+        />
+        <LinkCeibal
+          href={'https://www.google.com'}
+          cls={'d13'}
+          src={'/image/hola.jpg'}
+          alt={'Image'}
+        />
+        <LinkCeibal
+          href={'https://www.google.com'}
+          cls={'d14'}
+          src={'/image/hola.jpg'}
+          alt={'Image'}
+        />
+        <LinkCeibal
+          href={'https://www.google.com'}
+          cls={'d15'}
+          src={'/image/hola.jpg'}
+          alt={'Image'}
+        />
+        <LinkCeibal
+          href={'https://www.google.com'}
+          cls={'d16'}
+          src={'/image/hola.jpg'}
+          alt={'Image'}
+        />
+        <LinkCeibal
+          href={'https://www.google.com'}
+          cls={'d17'}
+          src={'/image/hola.jpg'}
+          alt={'Image'}
+        />
+        <LinkCeibal
+          href={'https://www.google.com'}
+          cls={'d18'}
+          src={'/image/hola.jpg'}
+          alt={'Image'}
+        />
+        <ButtonPage href="./breaks" className="ceibal__link">Previous</ButtonPage>
+      </section>
+    </main>
+  )
 }

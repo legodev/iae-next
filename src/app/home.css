@@ -16,28 +16,19 @@
   align-items: center;
 }
 
-.top {
-  margin-top: 20px;
-  padding-top: 50px;
-}
-
-.home {
-  padding: 0 25px;
-  overflow-x: hidden;
-}
-
 .home__section-main {
-  gap: 25px;
+  gap: 100px;
+  min-height: 90dvh;
 }
 
 .home__article-main {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 50px;
 }
 
 .home__title {
-  font-size: 3.5rem;
+  font-size: 5rem;
   text-align: center;
 }
 

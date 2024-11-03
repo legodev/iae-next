@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function AboutGrid() {
   return (
-    <section className="about">
+    <section className="about home">
       <div className="about__grid">
         <Image
           className="about__grid-image"

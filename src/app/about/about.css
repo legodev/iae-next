@@ -1,7 +1,3 @@
-.top {
-  margin-top: 20px;
-  padding-top: 50px;
-}
 
 .hp3 {
   margin-bottom: 60px;
@@ -11,13 +7,12 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
-  padding: 0 25px;
-  overflow-x: hidden;
+  min-height: 95dvh;
 }
 
 .about__title {
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 5rem;
 }
 
 .about__description,

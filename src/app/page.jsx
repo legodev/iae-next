@@ -25,6 +25,7 @@ export default function Home() {
             className="home__video"
             src="/videos/video.mp4"
             autoPlay
+            muted
             controls
           ></video>
         </section>
