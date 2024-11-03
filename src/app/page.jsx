@@ -17,6 +17,8 @@ export default function Home() {
           <article className="home__article-main">
             <h1 className="home__title">Title</h1>
             <p className="home__description">{Texts.home.description}</p>
+            <p className="home__description description-2">{Texts.home.description2}</p>
+            <p className="home__description">{Texts.home.description3}</p>
             <Link href="#areas" className="home__button">
               See more
             </Link>

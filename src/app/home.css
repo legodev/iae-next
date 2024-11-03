@@ -30,10 +30,15 @@
 .home__title {
   font-size: 5rem;
   text-align: center;
+  color: red;
 }
 
 .home__description {
   line-height: 1.5; 
+}
+
+.description-2{
+  color: red;
 }
 
 .home__button {
