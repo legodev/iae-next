@@ -15,9 +15,9 @@ export default function Home() {
         <section className="home__section-main column">
           <article className="home__article-main">
             <h1 className='home__title'>
-              <span class="develop">What</span>
-              <span class="preview">Is</span>
-              <span class="ship">IAE?</span>
+              <span className="develop">What</span>
+              <span className="preview">Is</span>
+              <span className="ship">IAE?</span>
             </h1>
             <p className="home__description">{Texts.home.description}</p>
 

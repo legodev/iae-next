@@ -1,44 +1,37 @@
 span {
-  color: transparent; /* Hacemos que el texto sea transparente */
+  color: transparent;
   display: block;
-  line-height: 1.1;
+  line-height: 1;
   position: relative;
-  -webkit-background-clip: text; /* Recorta el fondo para que se ajuste al texto */
-  background-clip: text; /* Soporte para otros navegadores */
   animation: animated 9s infinite;
-  transition: opacity .3s ease;
-  opacity: 0; /* Inicia invisible */
+  transition: opacity 0.3s ease; /* Inicia invisible */
 }
 
 @keyframes animated {
-  0%, 16.667%, 100% {
-      opacity: 1;
+  0%,
+  16.667%,
+  100% {
+    text-shadow: 0px 0px rgb(255, 141, 160);
   }
-  33.333%, 83.333% {
-      opacity: 0;
+  33.333%,
+  83.333% {
+    text-shadow: 0px 0px var(--secondary-color);
   }
 }
 
 .develop {
   animation-delay: 0s;
-  background: linear-gradient(90deg, #cdc, #bfc); /* Gradiente de fondo */
-  background-clip:text ;
   text-align: left;
 }
 
 .preview {
-  background: linear-gradient(90deg, #3838d0, #999fb7);
   animation-delay: 3s;
-  background-clip:text ;
 }
 
 .ship {
-  background: linear-gradient(90deg, #e2d411, #e13131);
   animation-delay: 6s;
-  background-clip:text ;
   text-align: right;
 }
-
 
 .space {
   height: 60px;
@@ -72,16 +65,12 @@ span {
 .home__title {
   font-size: 5rem;
   text-align: center;
-  color: red;
 }
 
 .home__description {
   line-height: 1.5;
 }
 
-.description-2 {
-  color: red;
-}
 
 .home__button {
   background-color: var(--secondary-color);
