@@ -7,7 +7,6 @@ import HomeColumns from './components/HomeColumns'
 import Grid from './components/Grid'
 import Gridv2 from './components/Gridv2'
 import ButtonPage from './components/Button'
-import Footer from './components/Footer'
 
 export default function Home() {
   return (
@@ -15,10 +14,13 @@ export default function Home() {
       <header className="home">
         <section className="home__section-main column">
           <article className="home__article-main">
-            <h1 className="home__title">Title</h1>
+            <h1 className='home__title'>
+              <span class="develop">What</span>
+              <span class="preview">Is</span>
+              <span class="ship">IAE?</span>
+            </h1>
             <p className="home__description">{Texts.home.description}</p>
-            <p className="home__description description-2">{Texts.home.description2}</p>
-            <p className="home__description">{Texts.home.description3}</p>
+
             <Link href="#areas" className="home__button">
               See more
             </Link>
@@ -30,6 +32,10 @@ export default function Home() {
             muted
             controls
           ></video>
+          <p className="home__description description-2">
+            {Texts.home.description2}
+          </p>
+          <p className="home__description">{Texts.home.description3}</p>
         </section>
       </header>
       <section className="home__parallax"></section>

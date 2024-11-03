@@ -1,3 +1,45 @@
+span {
+  color: transparent; /* Hacemos que el texto sea transparente */
+  display: block;
+  line-height: 1.1;
+  position: relative;
+  -webkit-background-clip: text; /* Recorta el fondo para que se ajuste al texto */
+  background-clip: text; /* Soporte para otros navegadores */
+  animation: animated 9s infinite;
+  transition: opacity .3s ease;
+  opacity: 0; /* Inicia invisible */
+}
+
+@keyframes animated {
+  0%, 16.667%, 100% {
+      opacity: 1;
+  }
+  33.333%, 83.333% {
+      opacity: 0;
+  }
+}
+
+.develop {
+  animation-delay: 0s;
+  background: linear-gradient(90deg, #cdc, #bfc); /* Gradiente de fondo */
+  background-clip:text ;
+  text-align: left;
+}
+
+.preview {
+  background: linear-gradient(90deg, #3838d0, #999fb7);
+  animation-delay: 3s;
+  background-clip:text ;
+}
+
+.ship {
+  background: linear-gradient(90deg, #e2d411, #e13131);
+  animation-delay: 6s;
+  background-clip:text ;
+  text-align: right;
+}
+
+
 .space {
   height: 60px;
 }
@@ -34,10 +76,10 @@
 }
 
 .home__description {
-  line-height: 1.5; 
+  line-height: 1.5;
 }
 
-.description-2{
+.description-2 {
   color: red;
 }
 
@@ -53,11 +95,10 @@
   border-radius: 20px;
 }
 
-
 .home__parallax {
   width: 105vw;
   height: 100px;
-  background-image: url("/image/parallax.png");
+  background-image: url('/image/parallax.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -65,7 +106,7 @@
 }
 
 .hp2 {
-  background-image: url("/image/parallax-2.png");
+  background-image: url('/image/parallax-2.png');
 }
 
 .home__section-columns {
@@ -80,12 +121,12 @@
 }
 
 .home__article {
- gap: 15px;
- align-items: start;
- line-height: 1.5;
+  gap: 15px;
+  align-items: start;
+  line-height: 1.5;
 }
 
-.home__article-subtitle{
+.home__article-subtitle {
   font-size: 1.3rem;
 }
 
@@ -139,4 +180,3 @@
   grid-column: 3/6;
   grid-row: 1/5;
 }
-
