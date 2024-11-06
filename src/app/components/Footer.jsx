@@ -29,26 +29,31 @@ export default function Footer() {
 
   return (
     <footer className="footer">
-      <Link
-        className="footer__iae"
-        href={'https://iaemontevideo.utu.edu.uy/'}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        IAE
-      </Link>
-      <p className='footer__copy'>©Copyright MC 2024</p>
-      <ul className="footer__list">
-        {links.map((link) => {
-          return (
-            <li key={link.href}>
-              <Link target="_blank" rel="noopener noreferrer" href={link.href}>
-                {link.icon}
-              </Link>
-            </li>
-          )
-        })}
-      </ul>
+      <div className='footer__container'>
+        <Link
+          className="footer__iae"
+          href={'https://iaemontevideo.utu.edu.uy/'}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          IAE
+        </Link>
+        <ul className="footer__list">
+          {links.map((link) => {
+            return (
+              <li key={link.href}>
+                <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={link.href}
+                >
+                  {link.icon}
+                </Link>
+              </li>
+            )
+          })}
+        </ul>
+      </div>
     </footer>
   )
 }

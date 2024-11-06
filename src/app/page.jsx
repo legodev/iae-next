@@ -30,9 +30,8 @@ export default function Home() {
             src="/videos/video.mp4"
             autoPlay
             muted
-            controls
           ></video>
-          <div className='home__div-description'>
+          <div className="home__div-description">
             <p className="home__description description-2">
               {Texts.home.description2}
             </p>
@@ -40,6 +39,14 @@ export default function Home() {
           </div>
         </section>
       </header>
+      <section>
+        <div className="home__div-description2 home">
+          <p className="home__description description-2">
+            {Texts.home.description2}
+          </p>
+          <p className="home__description">{Texts.home.description3}</p>
+        </div>
+      </section>
       <section className="home__parallax"></section>
       <HomeColumns />
       <div></div>
