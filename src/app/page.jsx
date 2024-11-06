@@ -14,10 +14,10 @@ export default function Home() {
       <header className="home">
         <section className="home__section-main column">
           <article className="home__article-main">
-            <h1 className='home__title'>
-              <span className="develop">What</span>
-              <span className="preview">Is</span>
-              <span className="ship">IAE?</span>
+            <h1 className="home__title">
+              <span className="what">What</span>
+              <span className="is">Is</span>
+              <span className="iae">IAE?</span>
             </h1>
             <p className="home__description">{Texts.home.description}</p>
 
@@ -32,10 +32,12 @@ export default function Home() {
             muted
             controls
           ></video>
-          <p className="home__description description-2">
-            {Texts.home.description2}
-          </p>
-          <p className="home__description">{Texts.home.description3}</p>
+          <div className='home__div-description'>
+            <p className="home__description description-2">
+              {Texts.home.description2}
+            </p>
+            <p className="home__description">{Texts.home.description3}</p>
+          </div>
         </section>
       </header>
       <section className="home__parallax"></section>

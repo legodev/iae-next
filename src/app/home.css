@@ -19,16 +19,16 @@ span {
   }
 }
 
-.develop {
+.what {
   animation-delay: 0s;
   text-align: left;
 }
 
-.preview {
+.is {
   animation-delay: 3s;
 }
 
-.ship {
+.iae {
   animation-delay: 6s;
   text-align: right;
 }
@@ -71,6 +71,16 @@ span {
   line-height: 1.5;
 }
 
+.home__div-description {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.description-2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
 
 .home__button {
   background-color: var(--secondary-color);

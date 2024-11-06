@@ -43,23 +43,34 @@ export default function Navbar() {
       <header className="header">
         <div className="div__section-1">
           <nav className="nav container" role="navigation">
-            <div className='nav__logo'>
+            <div className="nav__logo">
               <Link href="./" className="nav__logo link" role="button-logo">
-                <Image src='/image/iae.png' alt="icon" priority height={45} width={45} />
+                <Image
+                className='nav__img'
+                  src="/image/iae.png"
+                  alt="icon"
+                  priority
+                  height={45}
+                  width={45}
+                />
               </Link>
-              <h3 className='nav__logo-text'>IAE</h3>
+              <h3 className="nav__logo-text">IAE</h3>
             </div>
             <ul className="nav__list-desktop">
               {links.map((link) => (
                 <li className="nav__item" key={link.name}>
-                  <Link href={link.href}>{link.name}</Link>
+                  <Link className="nav__link-desktop" href={link.href}>{link.name}</Link>
                 </li>
               ))}
             </ul>
             <ul className={`nav__list ${menu}`}>
               {links.map((link) => (
                 <li className="nav__item" key={link.name}>
-                  <Link onClick={open} href={link.href}>
+                  <Link
+                    className="nav__link"
+                    onClick={open}
+                    href={link.href}
+                  >
                     {link.name}
                   </Link>
                 </li>
