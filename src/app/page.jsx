@@ -21,7 +21,7 @@ export default function Home() {
             </h1>
             <p className="home__description">{Texts.home.description}</p>
 
-            <Link href="#areas" className="home__button">
+            <Link href="#what" className="home__button">
               See more
             </Link>
           </article>
@@ -29,21 +29,23 @@ export default function Home() {
             className="home__video"
             src="/videos/video.mp4"
             autoPlay
+            loop
             muted
           ></video>
+          <div id="what"></div>
           <div className="home__div-description">
-            <p className="home__description description-2">
+            <h4 className="home__description description-2">
               {Texts.home.description2}
-            </p>
+            </h4>
             <p className="home__description">{Texts.home.description3}</p>
           </div>
         </section>
       </header>
       <section>
         <div className="home__div-description2 home">
-          <p className="home__description description-2">
+          <h4 className="home__description description-2">
             {Texts.home.description2}
-          </p>
+          </h4>
           <p className="home__description">{Texts.home.description3}</p>
         </div>
       </section>

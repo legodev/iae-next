@@ -4,7 +4,12 @@
   --primary-color: #fff;
   --secondary-color: #222;
   --tertiary-color: rgb(255, 64, 96);
-  --quaternary-color: rgb(255, 119, 142);
+  --quaternary-color: rgb(255, 104, 129);
+}
+
+*::selection{
+  color: var(--secondary-color);
+  background-color: var(--tertiary-color);
 }
 
 .top {
@@ -24,6 +29,8 @@ body {
   hyphens: auto;
   scroll-behavior: smooth;
 }
+
+
 @font-face {
   font-family: 'GlassAntiqua-Regular';
   src: url('./fonts/GlassAntiqua-Regular.ttf') format('opentype');
@@ -75,4 +82,5 @@ p {
     line-height: 1.8;
     font-size: 1.2em;
   }
+
 }
