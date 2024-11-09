@@ -8,7 +8,7 @@ export default function AboutColumns({title, description, src, alt}) {
         {description}
       </p>
       <Image
-        className="about__columns-image hidden"
+        className="about__image"
         src={src}
         alt="Image"
         height={200}

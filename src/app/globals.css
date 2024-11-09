@@ -7,7 +7,7 @@
   --quaternary-color: rgb(255, 104, 129);
 }
 
-*::selection{
+*::selection {
   color: var(--secondary-color);
   background-color: var(--tertiary-color);
 }
@@ -17,9 +17,32 @@
   padding-top: 50px;
 }
 
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #222;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--tertiary-color);
+  border-radius: 5px;
+}
+
 .home {
   padding: 0 25px;
   overflow-x: hidden;
+}
+
+.home__parallax {
+  width: 105vw;
+  height: 100px;
+  background-image: url('/image/parallax.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: 60px;
 }
 
 html,
@@ -29,7 +52,6 @@ body {
   hyphens: auto;
   scroll-behavior: smooth;
 }
-
 
 @font-face {
   font-family: 'GlassAntiqua-Regular';
@@ -82,5 +104,4 @@ p {
     line-height: 1.8;
     font-size: 1.2em;
   }
-
 }

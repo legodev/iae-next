@@ -39,7 +39,7 @@
 
 .nav__logo {
   font-size: 2.5em;
-  color: var(--quaternary-color);
+  color: var(--tertiary-color);
   display: flex;
   align-items: center;
   gap: 10px;
@@ -148,7 +148,7 @@
     padding: 10px 15px;
     border-radius: 6px;
     transition: color .3s ease-in-out, background-color .3s ease;
-    color: var(--quaternary-color);
+    color: var(--tertiary-color);
   }
 
   .nav__link-desktop:hover {
