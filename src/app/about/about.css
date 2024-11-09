@@ -81,6 +81,7 @@
     flex-direction: row;
     margin: 120px auto;
     gap: 120px;
+    min-height: 65vh;
   }
 
   .about__column {
