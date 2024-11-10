@@ -81,7 +81,7 @@ span {
 .description-2,
 .home__columns-title {
   text-align: center;
-  font-size: 2.5em;
+  font-size: 2.5rem;
   font-weight: 100;
 }
 
@@ -193,7 +193,7 @@ span {
     display: flex;
     gap: 25px;
     justify-content: center;
-    font-size: 5.5em;
+    font-size: 5.5rem;
   }
 
   .home__section-main {
@@ -211,7 +211,7 @@ span {
     position: relative;
     overflow: hidden;
     transition: color 0.3s ease;
-    font-size: 1.2em;
+    font-size: 1.2rem;
   }
 
   .home__button::after {
@@ -254,7 +254,7 @@ span {
   }
 
   .home__columns-title {
-    font-size: 2.5em;
+    font-size: 2.5rem;
   }
 
   .home__article {
@@ -263,7 +263,7 @@ span {
   }
 
   .home__article-subtitle {
-    font-size: 1.8em;
+    font-size: 1.8rem;
     font-weight: 100;
     color: var(--quaternary-color);
   }

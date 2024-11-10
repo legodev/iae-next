@@ -36,7 +36,7 @@ export default function About() {
       <section className="home__parallax hp3"></section>
       <AboutContainer />
       <AboutGrid />
-      <div className="about__links">
+      <div className="about__links home">
         <ButtonPage href="./">Previous</ButtonPage>
         <ButtonPage href="./interviews">Next</ButtonPage>
       </div>

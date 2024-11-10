@@ -89,7 +89,7 @@
   }
 
   .about__title {
-    font-size: 8em;
+    font-size: 8rem;
   }
 
   .about__image {
@@ -110,7 +110,7 @@
   }
 
   .about__columns-title {
-    font-size: 4em;
+    font-size: 4rem;
   }
 
   .about__grid {
@@ -123,4 +123,5 @@
   .img-grid {
     height: 100%;
   }
+
 }

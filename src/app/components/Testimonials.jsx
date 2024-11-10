@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
-export default function Testimonials({ img, alt, witness, audio, text, order, start }) {
+export default function Testimonials({cls, img, alt, witness, audio, text, order, start }) {
   return (
-    <article className="testimonials__article">
+    <article className={`testimonials__article ${cls}`}>
       <div className="testimonials__div">
         <Image
           className={`testimonials__img ${order}`}

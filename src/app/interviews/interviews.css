@@ -8,9 +8,17 @@
 }
 
 .interview__title {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
   font-size: 5rem;
   text-align: center;
   line-height: 1.5;
+}
+
+.interview__title-span {
+  color: var(--tertiary-color);
+  text-shadow: 0px 0px 8px var(--tertiary-color);
 }
 
 .interview__video {
@@ -45,6 +53,7 @@
 .testimonials__title {
   font-size: 3rem;
   text-align: center;
+  color: var(--tertiary-color);
 }
 
 .testimonials__container {
@@ -104,4 +113,58 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 25px;
+}
+
+@media (min-width: 768px) {
+  .interview {
+    flex-direction: row;
+  }
+
+  .interview__title {
+    font-size: 6rem;
+  }
+
+  .interview__video {
+    min-width: 400px;
+    flex: 1;
+  }
+
+  .interview__testimonials, .testimonials__container {
+    gap: 100px;
+  }
+
+  .testimonials__container {
+    padding-bottom: 80px;
+  }
+
+  .testimonials__article {
+    width: 55%;
+    gap: 50px;
+  }
+
+  .end {
+    place-self: end;
+  }
+
+  .testimonials__witness {
+    gap: 35px;
+  }
+
+  .testimonials__img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .testimonials__name {
+    font-size: 2.5rem;
+  }
+
+  #start {
+    align-items: end;
+  }
+
+  #start h5 {
+    align-self: center;
+  }
+
 }
