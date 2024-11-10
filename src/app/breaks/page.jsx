@@ -11,7 +11,7 @@ export default function ActiveBreaks() {
     <main className="top">
       <section className="breaks home">
         <article className="breaks__info">
-          <h3 className="breaks__title">Title</h3>
+          <h3 className="breaks__title titles">Active breaks</h3>
           <p className="breaks__description">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
             ut nemo reprehenderit velit, possimus odio dolore aliquam saepe
@@ -28,10 +28,9 @@ export default function ActiveBreaks() {
             height={200}
           />
         </figure>
-        <p>Edición</p>
       </section>
       <section className="breaks__places home">
-        <h5 className="breaks__places-title">Places and activities</h5>
+        <h5 className="breaks__places-title subtitles">Places and activities</h5>
         <BreaksGrid />
         <p className="breaks__description">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
@@ -46,7 +45,7 @@ export default function ActiveBreaks() {
           text2={Texts.home.description}
         />
       </section>
-      <div className="breaks__links">
+      <div className="breaks__links home">
         <ButtonPage href="./interviews">Previous</ButtonPage>
         <ButtonPage href="./ceibal">Next</ButtonPage>
       </div>
