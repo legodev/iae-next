@@ -48,4 +48,7 @@ export const Texts = {
     mario2:
       'On this occasion, he will share his experience as a teacher at the High Specialization Institute (IAE), offering a unique perspective on what it means to be part of this institution of excellence and what daily life is like in such a demanding academic environment.',
   },
+  active: {
+    text2: "During breaktime we have a lot of activities to do, we can play football, basketball and volleyball, also, we have a playroom where the are two ping pong tables, one football table, some books to read and furthermore a piano to be played by whoever wants to. Last but not least, if you prefer just sitting and having fun, so different kinds of boardgames can be requested.",
+  }
 }

@@ -33,17 +33,9 @@ export default function ActiveBreaks() {
         <h5 className="breaks__places-title subtitles">Places and activities</h5>
         <BreaksGrid />
         <p className="breaks__description">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
-          voluptatem cupiditate hic, consectetur iste minus id consequatur ut
-          maxime error ducimus ipsum deserunt consequuntur autem amet.
+          {Texts.active.text2}
         </p>
         <BreaksGridv2 />
-        <BreaksColumns
-          title1={'Title'}
-          title2={'Title'}
-          text1={Texts.home.description}
-          text2={Texts.home.description}
-        />
       </section>
       <div className="breaks__links home">
         <ButtonPage href="./interviews">Previous</ButtonPage>

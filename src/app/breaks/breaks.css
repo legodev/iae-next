@@ -118,6 +118,10 @@
     padding: 0 25px;
 }
 
+.g1:focus {
+    z-index: 1000;
+}
+
 @media (min-width: 768px) {
     .breaks {
         flex-direction: row;

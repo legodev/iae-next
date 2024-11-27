@@ -13,7 +13,7 @@ export default function AboutGrid() {
         />
         <Image
           className="about__image img-grid"
-          src="/image/img-15.jpg"
+          src="/image/img-14.jpg"
           alt="Image"
           height={800}
           width={800}
