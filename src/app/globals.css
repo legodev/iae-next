@@ -5,6 +5,7 @@
   --secondary-color: #222;
   --tertiary-color: rgb(255, 64, 96);
   --quaternary-color: rgb(255, 104, 129);
+  --dark: rgb(0, 0, 0);
 }
 
 *::selection {

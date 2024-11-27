@@ -64,7 +64,7 @@
   align-content: space-evenly;
   padding: 40px 20px;
   overflow: hidden;
-  background-color: var(--secondary-color);
+  background-color: var(--dark);
   transform: translateX(110%);
   transition: transform 0.4s ease;
 }
@@ -81,8 +81,8 @@
   z-index: 300;
   border-radius: 0.1875rem;
   outline: 2px solid transparent;
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
+  background-color: var(--dark);
+  color: var(--tertiary-color);
 }
 
 .nav__list-desktop {
@@ -92,7 +92,7 @@
 .nav__item {
   font-size: 1.4rem;
   font-weight: bold;
-  color: var(--primary-color);
+  color: var(--tertiary-color);
 }
 
 .images {

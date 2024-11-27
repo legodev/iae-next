@@ -86,10 +86,17 @@ span {
 }
 
 .home__button {
-  background-color: var(--secondary-color);
+  background-color: transparent;
+  border: 1px solid var(--tertiary-color);
+  color: var(--tertiary-color);
   padding: 10px 15px;
   border-radius: 5px;
   align-self: center;
+}
+
+.home__button:focus {
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
 }
 
 .home__video {
@@ -274,6 +281,7 @@ span {
 
   .home__grid {
     margin-top: 150px;
+    max-width: 850px;
   }
 
   .home__grid .image:hover {
@@ -291,5 +299,6 @@ span {
 
   .home__grid-2 {
     padding: 150px 0 60px 0;
+    width: 750px;
   }
 }
