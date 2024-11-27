@@ -1,6 +1,8 @@
 .button {
   display: inline-block;
-  background-color: var(--secondary-color);
+  background-color: transparent;
+  color: var(--tertiary-color);
+  border: 1px solid var(--tertiary-color);
   padding: 10px 15px;
   border-radius: 5px;
   align-self: flex-end;

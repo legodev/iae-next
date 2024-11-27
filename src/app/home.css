@@ -1,3 +1,44 @@
+.extra {
+  display: none;
+}
+
+p {
+  display: inline;
+}
+
+input[type='checkbox'] {
+  height: 2em;
+  display: block;
+  appearance: none;
+}
+
+label {
+  position: relative;
+  padding: 1em;
+  background-color: var(--tertiary-color);
+  color: #222;
+  font-weight: 800;
+  border: 1px solid var(--tertiary-color);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+label label::before {
+  content: 'Read more';
+}
+
+input[type='checkbox']:checked + label::before {
+  content: 'Read less';
+}
+
+.dots:has(~ input[type='checkbox']:checked) {
+  display: none;
+}
+
+.extra:has(~ input[type='checkbox']:checked) {
+  display: inline;
+}
+
 span {
   color: transparent;
   display: block;
@@ -219,6 +260,11 @@ span {
     overflow: hidden;
     transition: color 0.3s ease;
     font-size: 1.2rem;
+  }
+
+  .home__button:focus {
+    background-color: unset;
+    color: var(--tertiary-color);
   }
 
   .home__button::after {

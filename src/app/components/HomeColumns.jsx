@@ -12,18 +12,24 @@ export default function HomeColumns() {
           cls2={'home__article-subtitle'}
           title="Technological"
           text={Texts.home.technological}
+          extra={Texts.home.techextra}
+          id={'btn1'}
         />
         <Article
           cls1={'home__article column'}
           cls2={'home__article-subtitle'}
           title="Bilingual"
           text={Texts.home.bilingual}
+          extra={Texts.home.bilextra}
+          id={'btn2'}
         />
         <Article
           cls1={'home__article column'}
           cls2={'home__article-subtitle'}
           title="Full-time"
           text={Texts.home.fulltime}
+          extra={Texts.home.fullextra}
+          id={'btn3'}
         />
       </section>
     </main>

@@ -15,7 +15,7 @@ export default function Grid() {
       <figure className="home__figure grid-2">
         <Image
           className="image"
-          src="/image/img-2.jpg"
+          src="/image/img-2.jpeg"
           alt="image"
           height={800}
           width={550}
