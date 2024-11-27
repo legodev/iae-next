@@ -35,6 +35,17 @@ export const Texts = {
       'Among these IAE centers are the IT High Specialization Institute (IAE IT) in Montevideo, the  Mobility High Specialization Institute (IAE Movilidad) in Canelones, Electronic High Specialization Institute (IAE Electrónica) in Paysandú, and the Logistic High Specialization Institute (IAE Logística) in Colonia, among many others.',
   },
   interviews: {
-    description: "",
-  }
+    marcelo:
+      'Our curricular English teacher, is recognized for his excellence both as a professional and as a person. His love for teaching drives him to inspire and guide his students with dedication and commitment. The immense affection his students have for him cannot be expressed in words, and they consider it a true privilege to have him as their teacher.',
+    marcelo2:
+      'On this occasion, he will share his experience working at the High Specialization Institute (IAE), where he combines his passion for education with the training of future professionals in a high-level academic environment.',
+    lorena:
+      'Our English teacher with a focus on software, has been a key figure at the Institute since its first year. Her teaching is impeccable and commanding, setting high standards, while as a person, she is known for her warmth and kindness.',
+    lorena2:
+      "Passionate about her profession, she will share her unique perspective as someone who has been present since the Institute's inception, offering a deep insight into its growth and the challenges overcome on the path to academic excellence.",
+    mario:
+      'Our IT support and Logic and Methods instructor, is an exemplary teacher, known for his excellent academic level and his friendly, kind personality. He is deeply dedicated to his work, always striving to help his students push beyond their limits and reach their full potential.',
+    mario2:
+      'On this occasion, he will share his experience as a teacher at the High Specialization Institute (IAE), offering a unique perspective on what it means to be part of this institution of excellence and what daily life is like in such a demanding academic environment.',
+  },
 }

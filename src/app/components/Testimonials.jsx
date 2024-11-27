@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-export default function Testimonials({cls, img, alt, witness, audio, text, order, start }) {
+export default function Testimonials({cls, img, alt, witness, audio, text, text2, order, start }) {
   return (
     <article className={`testimonials__article ${cls}`}>
       <div className="testimonials__div">
@@ -20,6 +20,7 @@ export default function Testimonials({cls, img, alt, witness, audio, text, order
         </section>
       </div>
       <p>{text}</p>
+      <p>{text2}</p>
     </article>
   )
 }

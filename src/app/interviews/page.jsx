@@ -2,6 +2,7 @@ import Link from 'next/link'
 import './interviews.css'
 import Testimonials from '../components/Testimonials'
 import ButtonPage from '../components/Button'
+import { Texts } from '../components/Texts'
 
 export default function Inteviews() {
   return (
@@ -27,29 +28,33 @@ export default function Inteviews() {
         <section className="testimonials__container">
           <Testimonials
             cls={'start'}
-            img="/image/hi.jpeg"
+            img="/image/avatar-1.png"
             alt="Image"
             witness="Marcelo Santos"
             audio="/audio/a1.mp3"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, corrupti illo vitae iusto voluptates at. Consectetur labore eum itaque voluptatum!"
+            text={Texts.interviews.marcelo}
+            text2={Texts.interviews.marcelo2}
           />
           <Testimonials
             cls={'end'}
-            img="/image/hi.jpeg"
+            img="/image/avatar-2.png"
             order={'order'}
             start={'start'}
             alt="Image"
-            witness="Marcelo Santos"
+            witness="Lorena Punciolo"
             audio="/audio/a1.mp3"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, corrupti illo vitae iusto voluptates at. Consectetur labore eum itaque voluptatum!"
+            text={Texts.interviews.lorena}
+            text2={Texts.interviews.lorena2}
+            
           />
           <Testimonials
             cls={'start'}
-            img="/image/hi.jpeg"
+            img="/image/avatar-3.png"
             alt="Image"
-            witness="Marcelo Santos"
+            witness="Mario Straneo"
             audio="/audio/a1.mp3"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, corrupti illo vitae iusto voluptates at. Consectetur labore eum itaque voluptatum!"
+            text={Texts.interviews.mario}
+            text2={Texts.interviews.mario2}
           />
         </section>
       </section>
