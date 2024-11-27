@@ -1,12 +1,12 @@
-import Image from "next/image"
+import Image from 'next/image'
 
-export default function AboutColumns({title, description, src, alt}) {
+export default function AboutColumns({ title, description, src, alt }) {
   return (
     <article className="about__columns-container">
-      <h4 className="about__columns-title">{title}</h4>
-      <p className="about__columns-description">
-        {description}
-      </p>
+      <div className='about__columns-div'>
+        <h4 className="about__columns-title">{title}</h4>
+        <p className="about__columns-description">{description}</p>
+      </div>
       <Image
         className="about__image"
         src={src}

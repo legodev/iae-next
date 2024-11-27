@@ -53,6 +53,12 @@
   gap: 50px;
 }
 
+.about__columns-div {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
 .about__columns-title {
   text-align: center;
   font-size: 2rem;
@@ -102,6 +108,7 @@
 
   .about__columns-container {
     gap: 5rem;
+    justify-content: space-between;
   }
 
   .about__columns {

@@ -3,6 +3,7 @@ import './about.css'
 import AboutContainer from '../components/AboutContainer'
 import AboutGrid from '../components/AboutGrid'
 import ButtonPage from '../components/Button'
+import { Texts } from '../components/Texts'
 
 export default function About() {
   return (
@@ -12,24 +13,22 @@ export default function About() {
           <h3 className="about__title">About</h3>
           <Image
             className="about__image"
-            src="/image/img-3.jpg"
+            src="/image/img-8.jpeg"
             alt="Image"
-            height={200}
-            width={200}
+            height={800}
+            width={800}
           />
         </article>
         <article className="about__column">
           <Image
             className="about__image hidden"
-            src="/image/img-3.jpg"
+            src="/image/img-9.jpeg"
             alt="Image"
-            height={200}
-            width={200}
+            height={800}
+            width={800}
           />
           <p className="about__description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
-            deleniti necessitatibus aliquam itaque cum mollitia, odio illum esse
-            quas! Adipisci.
+            {Texts.about.description}
           </p>
         </article>
       </section>

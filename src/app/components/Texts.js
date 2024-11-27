@@ -18,4 +18,11 @@ export const Texts = {
     fullextra:
       'The second break is at 12:30, lasting 15 minutes for a quick break before lunch. Lunch is from 1:30 to 2:00 p.m., with an option to order food from a nearby school. The final break is at 3:30 p.m., a 15-minute rest before classes resume.',
   },
+  about: {
+    description:
+      'In this section, the different areas of interest on the institute will be shown and how they help make it a comfortable and accessible place for everyone.',
+    text1:
+      'The conditions of our institute are very good due to it is a private-public investment. As a consequence, there are employees, very friendly ones in fact, solving problems at all times, suchs as cleaning, fixing, putting things away, etc. Unfortunately, this is not the norm in public institutions.',
+    text2: "Futhermore, it is a very cosy, welcoming and inclusive place to all of us because it has many areas, sometimes we simply enjoy doing open-air activities that make the institute a very comfortable and accessible place for everyone.",
+    },
 }

@@ -24,7 +24,7 @@
 
 .top {
   margin-top: 20px;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 body::-webkit-scrollbar {
@@ -113,5 +113,10 @@ p {
   p {
     line-height: 1.8;
     font-size: 1.2rem;
+  }
+
+  .top {
+    margin-top: 20px;
+    padding-top: 50px;
   }
 }
