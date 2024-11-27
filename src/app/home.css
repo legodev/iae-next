@@ -16,14 +16,13 @@ label {
   position: relative;
   padding: 1em;
   background-color: var(--tertiary-color);
-  color: #222;
-  font-weight: 800;
+  color: #000;
   border: 1px solid var(--tertiary-color);
   border-radius: 6px;
   cursor: pointer;
 }
 
-label label::before {
+label::before {
   content: 'Read more';
 }
 
