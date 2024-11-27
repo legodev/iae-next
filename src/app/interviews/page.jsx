@@ -58,6 +58,16 @@ export default function Inteviews() {
           />
         </section>
       </section>
+      <section className='interview__students home'>
+        <h4 className='interview__students-title'>Students</h4>
+        <video
+          // POSTER
+          poster='/image/poster.png'
+          className="interview__students-video"
+          src="/videos/students.mp4"
+          controls
+        />
+      </section>
       <div className="interview__links home">
         <ButtonPage href="./about">Previous</ButtonPage>
         <ButtonPage href="./breaks">Next</ButtonPage>

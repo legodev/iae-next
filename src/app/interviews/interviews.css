@@ -95,6 +95,24 @@
     align-self: center;
 }
 
+.interview__students {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding-top: 100px;
+}
+
+.interview__students-title {
+  font-size: 3.5rem;
+  color: var(--tertiary-color);
+  text-align: center;
+}
+
+.interview__students-video {
+  width: 100%;
+  border-radius: 20px;
+}
+
 .order {
     order: 2;
 }
@@ -166,5 +184,14 @@
   #start h5 {
     align-self: center;
   }
+
+  .interview__students {
+    padding-bottom: 50px;
+  }
+
+  .interview__students-title {
+    font-size: 4.5rem;
+  }
+
 
 }
