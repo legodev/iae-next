@@ -8,30 +8,24 @@ export default function AboutContainer() {
       <AboutColumns
         title="Title"
         description={Texts.about.text1}
-        src="/image/hola.jpg"
+        src="/image/img-10.jpeg"
         alt="Image"
       />
       <AboutColumns
         title="Title"
         description={Texts.about.text2}
-        src="/image/hola.jpg"
+        src="/image/img-11.jpg"
         alt="Image"
       />
       <AboutColumns
         title="Title"
-        description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis ea
-        deleniti neque adipisci a minus soluta quis itaque necessitatibus magnam
-        sapiente impedit doloremque, maxime labore dignissimos voluptatum, non,
-        odio dicta."
-        src="/image/hola.jpg"
+        description={Texts.about.text3}
+        src="/image/img-12.jpeg"
         alt="Image"
       />
       <AboutColumns
         title="Title"
-        description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis ea
-        deleniti neque adipisci a minus soluta quis itaque necessitatibus magnam
-        sapiente impedit doloremque, maxime labore dignissimos voluptatum, non,
-        odio dicta."
+        description={Texts.about.text4}
         src="/image/hola.jpg"
         alt="Image"
       />

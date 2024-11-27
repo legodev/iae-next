@@ -10,9 +10,9 @@ export default function AboutColumns({ title, description, src, alt }) {
       <Image
         className="about__image"
         src={src}
-        alt="Image"
-        height={200}
-        width={200}
+        alt={alt}
+        height={800}
+        width={800}
       />
     </article>
   )
