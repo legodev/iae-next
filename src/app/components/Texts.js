@@ -26,7 +26,7 @@ export const Texts = {
     text2:
       'Furthermore, it is a very cosy, welcoming and inclusive place to all of us because it has many areas, sometimes we simply enjoy doing open-air activities that make the institute a very comfortable and accessible place for everyone.',
     text3:
-      "A dining room with good equipment, a place to play basketball, air conditioning and TV's in every classrooms. Among other things that makes it a very comprehensive and completely accessible to everyone.",
+      "IAE has spaces such as the dinning room, a playroom, an lift which can be used by wheelchair users, or anyone of us if we can't use stairs for any reason and toilets for disabled individuals. A dining room with good equipment, a place to play basketball, air conditioning and TV's in every classrooms. Among other things that makes it a very comprehensive and completely accessible to everyone.",
     text4:
       'All of the above, along with the quality of the classes, the good study equipment, the possibility of requesting a computer, photocopies, the variety of electronic equipment available at the institute, and above all, the quality of the professors when it comes to teaching, make our institute a place where not only everyone can feel comfortable, but also where everyone can enjoy studying.',
   },
