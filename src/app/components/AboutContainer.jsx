@@ -26,7 +26,7 @@ export default function AboutContainer() {
       <AboutColumns
         title="Title"
         description={Texts.about.text4}
-        src="/image/hola.jpg"
+        src="/image/img-13.jpeg"
         alt="Image"
       />
     </section>

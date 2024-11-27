@@ -27,13 +27,20 @@ export default function About() {
             height={800}
             width={800}
           />
-          <p className="about__description">
-            {Texts.about.description}
-          </p>
+          <p className="about__description">{Texts.about.description}</p>
         </article>
       </section>
       <section className="home__parallax hp3"></section>
       <AboutContainer />
+      <section className='about__iaes home'>
+        <h3 className='about__iaes-title'>Title</h3>
+        <p>
+            {Texts.about.text5}
+        </p>
+        <p>
+            {Texts.about.text6}
+        </p>
+      </section>
       <AboutGrid />
       <div className="about__links home">
         <ButtonPage href="./">Previous</ButtonPage>

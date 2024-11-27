@@ -1,7 +1,7 @@
 export const Texts = {
   home: {
     description:
-      'IAE (Instituto de alta especialización / High Specialization Institute) is an IT and bilingual public-private investment institute.',
+      'IAE (Instituto de Alta Especialización / High Specialization Institute) is an IT and bilingual public investment institute.',
     description2: 'What does it mean?',
     description3:
       'It is free to study, but the place itself, the building, and its facilities are all financed by private investors. Here, you can study A-levels and then continue your studies at the very same Institute, as you can also pursue two different higher education degrees. Thus, if you study a career here at IAE, you will ultimately become a Cybersecurity Technician or a Computer Technician.',
@@ -12,7 +12,7 @@ export const Texts = {
     bilingual:
       'IAE offers 14 hours of English per week, 10 hours more than other baccalaureates in Uruguay, using an immersion method. This is made possible by Steven, a remote teacher from England, and Jack, who helps students practice through daily interactions in both formal and informal English. ',
     bilextra:
-      'This approach creates an efficient learning environment. IAE offers four English subjects: Curricular English, a more advanced version of the standard subject; English Placement, focusing on grammar and language basics; English Hardware, covering physical PC components; and English Software, which deals with technical language related to software and operating systems.',
+      'This approach creates an efficient learning environment. IAE offers several English subjects: Curricular English, a more advanced version of the standard subject; English Placement, focusing on grammar and language basics; English Hardware, covering physical PC components; and English Software, which deals with technical language related to software and operating systems, and many more',
     fulltime:
       'At IAE, A Levels classes are longer due to the bilingual nature of the school, running from 8:00 a.m. to 6:00 p.m. with 2 hours and 25 minutes of breaks. The first break, from 10:15 to 11:00, lasts 45 minutes for breakfast or food preparation, with ingredients like powdered milk and coffee provided. ',
     fullextra:
@@ -29,5 +29,12 @@ export const Texts = {
       "IAE has spaces such as the dinning room, a playroom, an lift which can be used by wheelchair users, or anyone of us if we can't use stairs for any reason and toilets for disabled individuals. A dining room with good equipment, a place to play basketball, air conditioning and TV's in every classrooms. Among other things that makes it a very comprehensive and completely accessible to everyone.",
     text4:
       'All of the above, along with the quality of the classes, the good study equipment, the possibility of requesting a computer, photocopies, the variety of electronic equipment available at the institute, and above all, the quality of the professors when it comes to teaching, make our institute a place where not only everyone can feel comfortable, but also where everyone can enjoy studying.',
+    text5:
+      'In addition to everything previously mentioned about our IAE, IAE Montevideo is not the only one in Uruguay. But before discussing this, we should understand why high-specialization institutes (IAEs) were created. These institutes were established with the purpose of training professionals not only in technology but also in the skills required today and in the future. This means that the level of demand in these institutes is higher, with students needing to be capable of managing technological projects. They foster entrepreneurial attitude, social and environmental commitment, and innovation. They were created to provide the highest quality education, flexible, comprehensive, and specialized in their respective sectors.',
+    text6:
+      'Among these IAE centers are the IT High Specialization Institute (IAE IT) in Montevideo, the  Mobility High Specialization Institute (IAE Movilidad) in Canelones, Electronic High Specialization Institute (IAE Electrónica) in Paysandú, and the Logistic High Specialization Institute (IAE Logística) in Colonia, among many others.',
   },
+  interviews: {
+    description: "",
+  }
 }

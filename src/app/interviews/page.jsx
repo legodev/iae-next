@@ -8,7 +8,7 @@ export default function Inteviews() {
     <main className="top">
       <section className="interview home">
         <h3 className="interview__title">
-          <span className="interview__title-span">Mock</span>
+          <span className="interview__title-span">Our</span>
           <span className="interview__title-span">Interviews</span>
         </h3>
         <video
@@ -25,24 +25,6 @@ export default function Inteviews() {
       <section className="interview__testimonials home" id="testimonials">
         <h4 className="testimonials__title">Testimonials</h4>
         <section className="testimonials__container">
-          <Testimonials
-            cls={'start'}
-            img="/image/hi.jpeg"
-            alt="Image"
-            witness="Marcelo Santos"
-            audio="/audio/a1.mp3"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, corrupti illo vitae iusto voluptates at. Consectetur labore eum itaque voluptatum!"
-          />
-          <Testimonials
-            cls={'end'}
-            img="/image/hi.jpeg"
-            order={'order'}
-            start={'start'}
-            alt="Image"
-            witness="Marcelo Santos"
-            audio="/audio/a1.mp3"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, corrupti illo vitae iusto voluptates at. Consectetur labore eum itaque voluptatum!"
-          />
           <Testimonials
             cls={'start'}
             img="/image/hi.jpeg"
