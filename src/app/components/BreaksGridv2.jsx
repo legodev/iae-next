@@ -7,22 +7,22 @@ export default function BreaksGridv2() {
         className="gridv2__img c1"
         src="/image/hola.jpg"
         alt="Image"
-        width={100}
-        height={100}
+        width={800}
+        height={800}
       />
       <Image
         className="gridv2__img c2"
-        src="/image/hola.jpg"
+        src="/image/img-23.jpeg"
         alt="Image"
-        width={100}
-        height={100}
+        width={800}
+        height={800}
       />
       <Image
         className="gridv2__img c3"
-        src="/image/hola.jpg"
+        src="/image/img-22.jpeg"
         alt="Image"
-        width={100}
-        height={100}
+        width={800}
+        height={800}
       />
     </section>
   )
