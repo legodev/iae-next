@@ -12,29 +12,24 @@ export default function ActiveBreaks() {
       <section className="breaks home">
         <article className="breaks__info">
           <h3 className="breaks__title titles">Active breaks</h3>
-          <p className="breaks__description">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
-            ut nemo reprehenderit velit, possimus odio dolore aliquam saepe
-            pariatur. Dicta voluptate odit quos officiis in amet distinctio nam,
-            aut placeat!
-          </p>
+          <p className="breaks__description">{Texts.active.description}</p>
         </article>
         <figure className="breaks__figure">
           <Image
             className="breaks__img"
-            src="/image/hola.jpg"
+            src="/image/img-20.jpeg"
             alt="Image"
-            width={200}
-            height={200}
+            width={800}
+            height={800}
           />
         </figure>
       </section>
       <section className="breaks__places home">
-        <h5 className="breaks__places-title subtitles">Places and activities</h5>
+        <h5 className="breaks__places-title subtitles">
+          Places and activities
+        </h5>
         <BreaksGrid />
-        <p className="breaks__description">
-          {Texts.active.text2}
-        </p>
+        <p className="breaks__description">{Texts.active.text2}</p>
         <BreaksGridv2 />
       </section>
       <div className="breaks__links home">

@@ -32,14 +32,10 @@ export default function About() {
       </section>
       <section className="home__parallax hp3"></section>
       <AboutContainer />
-      <section className='about__iaes home'>
-        <h3 className='about__iaes-title'>Title</h3>
-        <p>
-            {Texts.about.text5}
-        </p>
-        <p>
-            {Texts.about.text6}
-        </p>
+      <section className="about__iaes home">
+        <h3 className="about__iaes-title">Title</h3>
+        <p>{Texts.about.text5}</p>
+        <p>{Texts.about.text6}</p>
       </section>
       <AboutGrid />
       <div className="about__links home">
