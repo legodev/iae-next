@@ -3,7 +3,6 @@ import Image from 'next/image'
 import ButtonPage from '../components/Button'
 import BreaksGrid from '../components/BreaksGrid'
 import BreaksGridv2 from '../components/BreaksGridv2'
-import BreaksColumns from '../components/BreaksColumns'
 import { Texts } from '../components/Texts'
 
 export default function ActiveBreaks() {
@@ -34,7 +33,6 @@ export default function ActiveBreaks() {
       </section>
       <div className="breaks__links home">
         <ButtonPage href="./interviews">Previous</ButtonPage>
-        <ButtonPage href="./ceibal">Next</ButtonPage>
       </div>
     </main>
   )

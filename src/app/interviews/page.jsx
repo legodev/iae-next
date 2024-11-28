@@ -15,7 +15,7 @@ export default function Inteviews() {
         <video
           // POSTER
           className="interview__video"
-          src="/videos/video.mp4"
+          src="/videos/interview.mp4"
           autoPlay
           muted
         />
@@ -31,7 +31,7 @@ export default function Inteviews() {
             img="/image/avatar-1.png"
             alt="Image"
             witness="Marcelo Santos"
-            audio="/audio/a1.mp3"
+            audio="/audio/marcelo.mp3"
             text={Texts.interviews.marcelo}
             text2={Texts.interviews.marcelo2}
           />
@@ -42,7 +42,7 @@ export default function Inteviews() {
             start={'start'}
             alt="Image"
             witness="Lorena Punciolo"
-            audio="/audio/a1.mp3"
+            audio="/audio/lorena.mp4"
             text={Texts.interviews.lorena}
             text2={Texts.interviews.lorena2}
             
@@ -52,7 +52,7 @@ export default function Inteviews() {
             img="/image/avatar-3.png"
             alt="Image"
             witness="Mario Straneo"
-            audio="/audio/a1.mp3"
+            audio="/audio/mario.mp3"
             text={Texts.interviews.mario}
             text2={Texts.interviews.mario2}
           />

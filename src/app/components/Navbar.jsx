@@ -22,10 +22,6 @@ const links = [
     href: '../breaks',
     name: 'Active Breaks',
   },
-  {
-    href: '../ceibal',
-    name: 'Plan ceibal',
-  },
 ]
 
 export default function Navbar() {
@@ -45,16 +41,8 @@ export default function Navbar() {
           <nav className="nav container" role="navigation">
             <div className="nav__logo">
               <Link href="./" className="nav__logo link" role="button-logo">
-                <Image
-                className='nav__img'
-                  src="/image/iae.png"
-                  alt="icon"
-                  priority
-                  height={45}
-                  width={45}
-                />
-              </Link>
               <h3 className="nav__logo-text">IAE</h3>
+              </Link>
             </div>
             <ul className="nav__list-desktop">
               {links.map((link) => (

@@ -33,7 +33,7 @@ export default function About() {
       <section className="home__parallax hp3"></section>
       <AboutContainer />
       <section className="about__iaes home">
-        <h3 className="about__iaes-title">Title</h3>
+        <h3 className="about__iaes-title">Others IAE&apos;s</h3>
         <p>{Texts.about.text5}</p>
         <p>{Texts.about.text6}</p>
       </section>

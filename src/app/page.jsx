@@ -27,7 +27,7 @@ export default function Home() {
           </article>
           <video
             className="home__video"
-            src="/videos/video.mp4"
+            src="/videos/home.mp4"
             autoPlay
             loop
             muted
