@@ -46,6 +46,7 @@ span {
   animation: animated 9s infinite;
 }
 
+
 @keyframes animated {
   0%,
   16.667%,

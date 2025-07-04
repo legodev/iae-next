@@ -33,6 +33,7 @@ export default function ActiveBreaks() {
       </section>
       <div className="breaks__links home">
         <ButtonPage href="./interviews">Previous</ButtonPage>
+        <ButtonPage href="./ceibal">Next</ButtonPage>
       </div>
     </main>
   )

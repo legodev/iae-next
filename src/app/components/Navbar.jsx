@@ -22,6 +22,10 @@ const links = [
     href: '../breaks',
     name: 'Active Breaks',
   },
+  {
+    href: '../ceibal',
+    name: 'Ceibal',
+  },
 ]
 
 export default function Navbar() {
@@ -41,24 +45,22 @@ export default function Navbar() {
           <nav className="nav container" role="navigation">
             <div className="nav__logo">
               <Link href="./" className="nav__logo link" role="button-logo">
-              <h3 className="nav__logo-text">IAE</h3>
+                <h3 className="nav__logo-text">IAE</h3>
               </Link>
             </div>
             <ul className="nav__list-desktop">
               {links.map((link) => (
                 <li className="nav__item" key={link.name}>
-                  <Link className="nav__link-desktop" href={link.href}>{link.name}</Link>
+                  <Link className="nav__link-desktop" href={link.href}>
+                    {link.name}
+                  </Link>
                 </li>
               ))}
             </ul>
             <ul className={`nav__list ${menu}`}>
               {links.map((link) => (
                 <li className="nav__item" key={link.name}>
-                  <Link
-                    className="nav__link"
-                    onClick={open}
-                    href={link.href}
-                  >
+                  <Link className="nav__link" onClick={open} href={link.href}>
                     {link.name}
                   </Link>
                 </li>

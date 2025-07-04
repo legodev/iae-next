@@ -1,3 +1,9 @@
+@view-transition {
+  navigation: auto;
+}
+
+/* DEBEN IR EN AMBAS HOJAS DE ESTILO O CON IDs SUPUESTAMENTE */
+
 :root {
   --background: #0a0a0a;
   --foreground: #ededed;
